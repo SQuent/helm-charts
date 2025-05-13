@@ -44,6 +44,7 @@ deployment:
 uptimeKuma:
   url: "http://uptime-kuma:3001"
   credentialsSecret: uptime-kuma-credentials
+  defaultParent: ""
 
 resources:
   requests:
