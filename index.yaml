@@ -161,6 +161,27 @@ entries:
     version: 0.1.1
   stressed-pod:
   - apiVersion: v2
+    appVersion: 1.0.2
+    created: "2025-08-22T13:14:58.022202274Z"
+    description: A Helm chart for deploying Stressed Pod - a Kubernetes pod testing
+      tool
+    digest: a6d09c8b929a7a66d8ec7116c9de78abfd75af6471b563e7504fed90c7e9c437
+    home: https://github.com/SQuent/helm-charts
+    keywords:
+    - Kubernetes
+    - testing
+    - api
+    maintainers:
+    - email: q.sallio@gmail.com
+      name: Quentin SALLIO
+    name: stressed-pod
+    sources:
+    - https://github.com/SQuent/stressed-pod
+    type: application
+    urls:
+    - https://github.com/SQuent/helm-charts/releases/download/stressed-pod-1.0.1/stressed-pod-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
     appVersion: 1.0.0
     created: "2025-02-21T15:16:28.35675019Z"
     description: A Helm chart for deploying Stressed Pod - a Kubernetes pod testing
@@ -181,4 +202,4 @@ entries:
     urls:
     - https://github.com/SQuent/helm-charts/releases/download/stressed-pod-1.0.0/stressed-pod-1.0.0.tgz
     version: 1.0.0
-generated: "2025-02-21T15:16:28.356774706Z"
+generated: "2025-08-22T13:14:58.022224075Z"
