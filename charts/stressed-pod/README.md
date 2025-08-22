@@ -1,6 +1,6 @@
 # stressed-pod
 
-![Version: 1.0.0](https://img.shields.io/badge/Version-1.0.0-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 1.0.0](https://img.shields.io/badge/AppVersion-1.0.0-informational?style=flat-square)
+![Version: 1.0.1](https://img.shields.io/badge/Version-1.0.1-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 1.0.2](https://img.shields.io/badge/AppVersion-1.0.2-informational?style=flat-square)
 
 A Helm chart for deploying Stressed Pod - a Kubernetes pod testing tool
 
@@ -56,7 +56,6 @@ A Helm chart for deploying Stressed Pod - a Kubernetes pod testing tool
 | hpa.targetMemoryUtilizationPercentage | int | `80` |  |
 | image.pullPolicy | string | `"IfNotPresent"` |  |
 | image.repository | string | `"ghcr.io/squent/stressed-pod"` |  |
-| image.tag | string | `"latest"` |  |
 | nameOverride | string | `""` |  |
 | service.port | int | `8000` |  |
 | service.type | string | `"ClusterIP"` |  |
