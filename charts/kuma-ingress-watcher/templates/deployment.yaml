@@ -54,6 +54,8 @@ spec:
           value: "{{ .Values.kumaIngressWatcher.fileBasedMonitors.enabled | default `false` }}"
         - name: MONITORS_FILE_PATH
           value: "{{ .Values.kumaIngressWatcher.fileBasedMonitors.monitorsFilePath | default `/etc/kuma/monitors.yaml` }}"
+        - name: DEFAULT_PARENT
+          value: "{{ .Values.uptimeKuma.defaultParent }}"
         {{- if .Values.kumaIngressWatcher.fileBasedMonitors.enabled }}
         volumeMounts:
         - name: monitors-file
